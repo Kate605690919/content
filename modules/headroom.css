@@ -1,0 +1,11 @@
+﻿.headroom {
+    transition: transform 200ms linear;
+    display: block;
+    width: auto;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
